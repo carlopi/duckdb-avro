@@ -5,8 +5,6 @@
   "homepage": "https://www.zlib.net/",
   "license": "Zlib",
   "dependencies": [
-    {
-      "name": "vcpkg-cmake"
-    }
+      "vcpkg-cmake"
   ]
 }

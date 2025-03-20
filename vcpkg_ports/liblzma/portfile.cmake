@@ -8,6 +8,8 @@ vcpkg_from_github(
         build-tools.patch
 )
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 vcpkg_check_features(OUT_FEATURE_OPTIONS FEATURE_OPTIONS
     FEATURES
         tools BUILD_TOOLS
