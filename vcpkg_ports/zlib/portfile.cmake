@@ -5,6 +5,8 @@ SET(VCPKG_C_FLAGS " -FPIC ${VCPKG_C_FLAGS}" CACHE STRING "")
 
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(VCPKG_CXX_FLAGS " -fPIC ${VCPKG_CXX_FLAGS}" CACHE STRING "")
+set(VCPKG_C_FLAGS " -fPIC ${VCPKG_C_FLAGS}" CACHE STRING "")
 
 # When this port is updated, the minizip port should be updated at the same time
 vcpkg_from_github(
