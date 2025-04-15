@@ -18,7 +18,7 @@ jobs:
     uses: duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@main
     with:
       extension_name: avro
-      duckdb_version: 9676ae30965f12b8bdd513225c283f9c6b57177c
+      duckdb_version: f51775094159712affdd4a5b2852df723ded6274
       ci_tools_version: main
       exclude_archs: 'windows_amd64_rtools;windows_amd64_mingw'
 
